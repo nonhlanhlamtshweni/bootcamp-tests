@@ -1,3 +1,7 @@
 function greet(name) {
-    return"Hello, Felicia";
+    if (!name){
+return "Hello";
+
+    }
+    return"Hello, "+ name;
 }
